@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="fr.david.meimoun.ManagePartitionTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-02-17T23:57:50" hostname="macbook-pro-de-david.home" time="0.094">
+  <properties/>
+  <testcase name="DesorderListTest" classname="fr.david.meimoun.ManagePartitionTest" time="0.086"/>
+  <testcase name="goodPartitionWithThreeListReturn" classname="fr.david.meimoun.ManagePartitionTest" time="0.002"/>
+  <testcase name="goodPartitionWithOneListReturn" classname="fr.david.meimoun.ManagePartitionTest" time="0.002"/>
+  <testcase name="NullListTest" classname="fr.david.meimoun.ManagePartitionTest" time="0.001"/>
+  <testcase name="goodPartitionWithTwoListReturn" classname="fr.david.meimoun.ManagePartitionTest" time="0.002"/>
+  <system-out><![CDATA[2020-02-18 00:57:50 INFO  ManagePartition:18 - Begin Partition with [10, 5, 2, 7, 4] and sizeOfOutput 2
+2020-02-18 00:57:50 INFO  ManagePartition:23 - Return Partition with [[2], [4], [5], [7], [10]]
+2020-02-18 00:57:50 INFO  ManagePartition:18 - Begin Partition with [1, 2, 3, 4, 5] and sizeOfOutput 3
+2020-02-18 00:57:50 INFO  ManagePartition:23 - Return Partition with [[1, 2, 3], [4, 5]]
+2020-02-18 00:57:50 INFO  ManagePartition:18 - Begin Partition with [1, 2, 3, 4, 5] and sizeOfOutput 1
+2020-02-18 00:57:50 INFO  ManagePartition:23 - Return Partition with [[1], [2], [3], [4], [5]]
+2020-02-18 00:57:50 ERROR ManagePartition:27 - Error with arguments
+2020-02-18 00:57:50 INFO  ManagePartition:18 - Begin Partition with [1, 2, 3, 4, 5] and sizeOfOutput 2
+2020-02-18 00:57:50 INFO  ManagePartition:23 - Return Partition with [[1, 2], [3, 4], [5]]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

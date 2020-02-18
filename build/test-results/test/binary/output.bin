@@ -1,0 +1,9 @@
+h2020-02-18 00:57:50 INFO  ManagePartition:18 - Begin Partition with [10, 5, 2, 7, 4] and sizeOfOutput 2
+`2020-02-18 00:57:50 INFO  ManagePartition:23 - Return Partition with [[2], [4], [5], [7], [10]]
+g2020-02-18 00:57:50 INFO  ManagePartition:18 - Begin Partition with [1, 2, 3, 4, 5] and sizeOfOutput 3
+Y2020-02-18 00:57:50 INFO  ManagePartition:23 - Return Partition with [[1, 2, 3], [4, 5]]
+g2020-02-18 00:57:50 INFO  ManagePartition:18 - Begin Partition with [1, 2, 3, 4, 5] and sizeOfOutput 1
+_2020-02-18 00:57:50 INFO  ManagePartition:23 - Return Partition with [[1], [2], [3], [4], [5]]
+D2020-02-18 00:57:50 ERROR ManagePartition:27 - Error with arguments
+g2020-02-18 00:57:50 INFO  ManagePartition:18 - Begin Partition with [1, 2, 3, 4, 5] and sizeOfOutput 2
+[2020-02-18 00:57:50 INFO  ManagePartition:23 - Return Partition with [[1, 2], [3, 4], [5]]
